@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!--Navigasi-->
+<!-- component -->
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+
+<nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-blueGray-800">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start ">
+      <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#">NIKO ARIANA</a><button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
+        <i class="text-white fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="lg:flex flex-grow items-center bg-white lg:bg-opacity-0 lg:shadow-none hidden bg-blueGray-800" id="example-collapse-navbar">
+      <ul class="flex flex-col lg:flex-row list-none mr-auto">
+       
+      </ul>
+      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto items-center">
+        <li class="inline-block relative">
+          
+          <div class="hidden bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48" id="demo-pages-dropdown">
+            <span class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+              Admin Layout
+            </span>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Dashboard
+            </a>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Settings
+            </a>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Tables
+            </a>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Maps
+            </a>
+            <div class="h-0 mx-4 my-2 border border-solid border-blueGray-100"></div>
+            <span class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+              Auth Layout
+            </span>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Login
+            </a>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Register
+            </a>
+            <div class="h-0 mx-4 my-2 border border-solid border-blueGray-100"></div>
+            <span class="text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400">
+              No Layout
+            </span>
+            <a href="#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Landing
+            </a>
+            <a href=".#" class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700">
+              Profile
+            </a>
+          </div>
+        </li>
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-js%2F" target="_blank"><i class="lg:text-blueGray-200 text-blueGray-400 fab fa-facebook text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">Share</span></a>
+        </li>
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdemos.creative-tim.com%2Fnotus-js%2F&amp;text=Start%20your%20development%20with%20a%20Free%20Tailwind%20CSS%20and%20JavaScript%20UI%20Kit%20and%20Admin.%20Let%20Notus%20JS%20amaze%20you%20with%20its%20cool%20features%20and%20build%20tools%20and%20get%20your%20project%20to%20a%20whole%20new%20level." target="_blank"><i class="lg:text-blueGray-200 text-blueGray-400 fab fa-twitter text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">Tweet</span></a>
+        </li>
+        <li class="flex items-center">
+          <a class="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="https://github.com/creativetimofficial/notus-js?ref=njs-register" target="_blank"><i class="lg:text-blueGray-200 text-blueGray-400 fab fa-github text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">Star</span></a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<footer class="mt-32 items-center">
+  <div class="container mx-auto">
+    <div class="">
+      
+        <div class="text-sm  place-items-center font-semibold py-1">
+          <img class="rounded-full shadow-lg" src="img/niko.jpeg" width="250" alt="">
+        </div>
+    </div>
+  </div>
+</footer>
+<h1 class="text-center font-bold text-lg mt-5">I GEDE NIKO <span class="text-blueGray-400">ARIANA SAPUTRA</span></h1>
+<hr class="mt-5 border-1 border-gray-800">
+<h1 class="text-center font-bold text-2xl mt-10">SERVICES</h1>  
+<P class="text-justify md:pr-48 md:pl-48 ml-4 mr-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, sit dolor ut placeat aut perspiciatis excepturi libero neque consectetur eos, modi perferendis. Asperiores enim tempore, voluptate provident harum ex quas aut expedita sunt eveniet aspernatur dolorem dicta veniam laborum aliquam in possimus inventore quis fugiat, quam ad voluptas ullam. Velit.</P>
+<div class="px-2 py-20 w-full flex justify-center">
+  <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
+      <div class="lg:w-1/2">
+          <div class="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg"
+              style="background-image:url('img/ui.jpg')">
+          </div>
+      </div>
+      <div class="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
+          <h2 class="text-3xl text-gray-800 font-bold">
+              UI DESAINER
+              
+          </h2>
+          <p class="mt-4 text-gray-600">
+              The "Eco-Tracker" project aims to create a web-based platform that encourages individuals to adopt
+              sustainable lifestyle choices and actively contribute to environmental conservation. The platform will
+              provide users with personalized tracking, education, and engagement features to empower them to make
+              eco-friendly decisions in various aspects of their lives.
+          </p>
+          
+      </div>
+  </div>
+</div>
+<div class="px-2 py-20 w-full flex justify-center">
+  <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
+      <div class="lg:w-1/2">
+          <div class="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg"
+              style="background-image:url('img/desain.jpg')">
+          </div>
+      </div>
+      <div class="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
+          <h2 class="text-3xl text-gray-800 font-bold">
+              DESAINER
+              
+          </h2>
+          <p class="mt-4 text-gray-600">
+              The "Eco-Tracker" project aims to create a web-based platform that encourages individuals to adopt
+              sustainable lifestyle choices and actively contribute to environmental conservation. The platform will
+              provide users with personalized tracking, education, and engagement features to empower them to make
+              eco-friendly decisions in various aspects of their lives.
+          </p>
+          
+      </div>
+  </div>
+</div>
+<div class="px-2 py-20 w-full flex justify-center">
+  <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
+      <div class="lg:w-1/2">
+          <div class="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg"
+              style="background-image:url('img/animation.jpg')">
+          </div>
+      </div>
+      <div class="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
+          <h2 class="text-3xl text-gray-800 font-bold">
+              ANIMATION
+              
+          </h2>
+          <p class="mt-4 text-gray-600">
+              The "Eco-Tracker" project aims to create a web-based platform that encourages individuals to adopt
+              sustainable lifestyle choices and actively contribute to environmental conservation. The platform will
+              provide users with personalized tracking, education, and engagement features to empower them to make
+              eco-friendly decisions in various aspects of their lives.
+          </p>
+          
+      </div>
+  </div>
+</div>
+<h1 class="text-center font-bold text-2xl  pb-6">PORTOFOLIO</h1>
+
+<main class="h-full w-screen py-4 bg-gray-400 flex items-center justify-center flex-wrap">
+  <!--     primera card -->
+       
+  <div class="bg-white w-72 h-96 shadow-md rounded m-3">
+    
+    <div class="h-3/4 w-full">
+      
+      <img class="w-full h-full object-cover rounded-t" src="img/ai.png" alt="piña">
+    </div>
+    <div class="w-full h-1/4 p-3">
+      <a href="#" class=" hover:text-yellow-600 text-gray-700">
+        <span class="text-lg font-semibold uppercase tracking-wide ">ADOBE ILUSTRATOR</span>
+      </a>
+      
+    </div>
+  </div>
+  <!--     segunda card -->
+  <div class="bg-white w-72 h-96 shadow-md rounded m-3">
+    <div class="h-3/4 w-full">
+      <img class="w-full h-full object-cover rounded-t" src="img/figma.png" alt="piña">
+    </div>
+    <div class="w-full h-1/4 p-3">
+      <a href="#" class=" hover:text-yellow-600 text-gray-700">
+        <span class="text-lg font-semibold uppercase tracking-wide ">FIGMA</span>
+      </a>
+      
+    </div>
+  </div>
+  <!--     tercera card -->
+  <div class="bg-white w-72 h-96 shadow-md rounded m-3">
+    <div class="h-3/4 w-full">
+      <img class="w-full h-full object-cover rounded-t" src="img/an.png" alt="piña">
+    </div>
+    <div class="w-full h-1/4 p-3">
+      <a href="#" class=" hover:text-yellow-600 text-gray-700">
+        <span class="text-lg font-semibold uppercase tracking-wide ">ADOBE ANIMATION</span>
+      </a>
+      
+    </div>
+  </div>
+</main>
+
+<h1 class="text-center mt-10 font-bold text-2xl">ABOUT ME</h1>
+<p class="text-justify md:ml-48 md:mr-48 pl-4 pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates veniam modi iste, unde repellat, earum ipsa praesentium harum ut soluta at mollitia dignissimos cupiditate fugit nulla ex sequi sapiente ea quibusdam? Officia fuga odit minima obcaecati esse aspernatur architecto eaque aut iste, placeat eum delectus commodi laboriosam nesciunt ipsum?</p>
+<div class="container mx-auto p-8">
+  <h1 class="text-2xl font-bold text-center mt-10">Kontak Kami</h1>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-semibold mb-4">Informasi Kontak</h2>
+          <p class="mb-2"><strong>Alamat:</strong> Jl. Raya Sading No.80, Mengwi Badung Bali Indonesia</p>
+          <p class="mb-2"><strong>Telepon:</strong> 085858139908</p>
+          <p class="mb-2"><strong>Email:</strong> nikoariana377@gmail.com</p>
+      </div>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+          <h2 class="text-xl font-semibold mb-4">Kirim Pesan</h2>
+          <form action="#" method="POST">
+              <div class="mb-4">
+                  <label for="name" class="block text-sm font-medium text-gray-700">Nama</label>
+                  <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring focus:ring-blue-500" placeholder="Masukkan nama Anda">
+              </div>
+              <div class="mb-4">
+                  <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                  <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring focus:ring-blue-500" placeholder="Masukkan email Anda">
+              </div>
+              <div class="mb-4">
+                  <label for="message" class="block text-sm font-medium text-gray-700">Pesan</label>
+                  <textarea id="message" name="message" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring focus:ring-blue-500" rows="4" placeholder="Tulis pesan Anda di sini"></textarea>
+              </div>
+              <button type="submit" class="w-full bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600">Kirim</button>
+          </form>
+      </div>
+  </div>
+</div>
+<!-- component -->
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+<footer class="relative bg-blueGray-800 pt-8 pb-6">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl fonat-semibold text-blueGray-500">Let's keep in touch!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-blueGray-500">
+          
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-6 border-blueGray-300">
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-blueGray-500 font-semibold py-1">
+          Copyright © <span id="get-current-year">2024</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank">
+          <a href="https://www.intagram.com/nikoarianaa_" class="text-blueGray-500 hover:text-blueGray-800">Niko Ariana</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
